@@ -4,11 +4,10 @@ Segment characters and spaces in one text line,from this paper [Chinese English 
 ## dependencies
 tensorflow1.3,or 1.4
 > 
+python3
 
 ## differences from the paper
 the paper set the label of the space to 1,others 0.But that is not hommizate,because the space between two characters is many pixes,the network is hard to distinguish which is 1,which is 0,even though it can work.Here we change to set the characters to 1,spaces to 0.
-
-python3 
 
 ## architecture of the network
 ![image]( ./other/1.png)
